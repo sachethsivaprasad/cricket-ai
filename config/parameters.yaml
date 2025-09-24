@@ -1,0 +1,24 @@
+# Physics Parameters
+physics:
+  gravity: 9.8
+  air_density: 1.2
+  drag_coefficient: 0.45
+  pitch_length: 20.0  # meters
+  bounce_factor: 0.7
+
+# Batsman Parameters
+batsman:
+  skill_level: 0.7
+  reaction_time: 0.4  # seconds
+  shot_probabilities:
+    drive: 0.8
+    cut: 0.6
+    pull: 0.5
+    defense: 0.9
+
+# Training Parameters
+training:
+  total_timesteps: 100000
+  learning_rate: 0.0003
+  gamma: 0.99
+  batch_size: 64
